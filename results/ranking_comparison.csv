@@ -1,0 +1,13 @@
+category,metric_a,metric_b,best_a,best_b,order_a,order_b,kendall_tau,boot_tau_mean,boot_p_same_best,boot_p_same_order,n_perturbations
+unseen_single,pearson_all,pearson_de20,additive,additive,additive > train_mean > linear > knn,additive > train_mean > linear > knn,1,0.5424,0.602,0.3421,105
+combo_seen0,pearson_all,pearson_de20,linear,linear,linear > additive > train_mean > knn,linear > knn > train_mean > additive,0,0.323233,0.533,0.1612,101
+combo_seen1,pearson_all,pearson_de20,additive,additive,additive > knn > linear > train_mean,additive > knn > linear > train_mean,1,0.975633,0.9999,0.927,131
+combo_seen2,pearson_all,pearson_de20,additive,additive,additive > knn > linear > train_mean,additive > knn > linear > train_mean,1,0.956667,1,0.87,127
+unseen_single,pearson_all,mse_de20,additive,train_mean,additive > train_mean > linear > knn,train_mean > knn > additive > linear,0,-0.0415,0.0031,0.0003,105
+combo_seen0,pearson_all,mse_de20,linear,additive,linear > additive > train_mean > knn,additive > knn > linear > train_mean,0,0.0411667,0.3591,0.0347,101
+combo_seen1,pearson_all,mse_de20,additive,additive,additive > knn > linear > train_mean,additive > knn > linear > train_mean,1,0.9376,1,0.8128,131
+combo_seen2,pearson_all,mse_de20,additive,additive,additive > knn > linear > train_mean,additive > knn > linear > train_mean,1,0.883633,1,0.6509,127
+unseen_single,pearson_all,l2_top1000,additive,additive,additive > train_mean > linear > knn,additive > train_mean > knn > linear,0.666667,0.6544,0.9917,0.1827,105
+combo_seen0,pearson_all,l2_top1000,linear,train_mean,linear > additive > train_mean > knn,train_mean > additive > knn > linear,-0.333333,-0.008,0.1953,0.0195,101
+combo_seen1,pearson_all,l2_top1000,additive,additive,additive > knn > linear > train_mean,additive > knn > linear > train_mean,1,0.861867,0.9999,0.598,131
+combo_seen2,pearson_all,l2_top1000,additive,additive,additive > knn > linear > train_mean,additive > knn > linear > train_mean,1,0.9496,0.9998,0.8488,127

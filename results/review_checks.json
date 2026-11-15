@@ -1,0 +1,37 @@
+{
+ "cells": {
+  "source": 111445,
+  "kept": 91168,
+  "share_removed": 0.18194625151419985
+ },
+ "control_noise": {
+  "control_sem2_all": 0.08018642382648825,
+  "median_sum_sq_effect": 39.596470181259285,
+  "min_sum_sq_effect": 2.129944327030393,
+  "sum_sq_mean_effect": 18.21586465367871,
+  "induced_correlation": 0.0029857106240472127
+ },
+ "targets": {
+  "single": {
+   "n_perturbations": 105,
+   "share_with_target_in_top20_de": 0.6571428571428571,
+   "mean_targets_in_top20_de": 0.6571428571428571,
+   "target_share_of_sum_sq_effect_all_genes_median": 0.004945885816215922,
+   "target_share_of_sum_sq_effect_all_genes_max": 0.4401245752074382,
+   "target_share_of_sum_sq_effect_top20_de_mean": 0.10875785329565557
+  },
+  "double": {
+   "n_perturbations": 131,
+   "share_with_target_in_top20_de": 0.6335877862595419,
+   "mean_targets_in_top20_de": 0.8625954198473282,
+   "target_share_of_sum_sq_effect_all_genes_median": 0.007859911286454652,
+   "target_share_of_sum_sq_effect_all_genes_max": 0.401676328313517,
+   "target_share_of_sum_sq_effect_top20_de_mean": 0.08925435326780036
+  }
+ },
+ "on_target": {
+  "singles_checked": 105,
+  "target_higher_than_control": 103,
+  "target_in_top20_de": 69
+ }
+}

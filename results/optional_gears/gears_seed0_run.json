@@ -1,0 +1,15 @@
+{
+ "seed": 0,
+ "epochs": 3,
+ "max_cells_per_perturbation": 60,
+ "max_control_cells": 1000,
+ "batch_size": 32,
+ "hidden_size": 64,
+ "device": "cpu",
+ "n_train_perturbations": 124,
+ "n_val_perturbations": 13,
+ "n_predicted": 92,
+ "n_held_out_in_split": 95,
+ "fit_seconds": 1206.3,
+ "total_seconds": 1379.2
+}

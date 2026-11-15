@@ -1,0 +1,24 @@
+# environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# raw data cache (see scripts/download_data.py); only derived files in data/ are tracked
+data/raw/
+*.h5ad
+
+# optional GEARS run
+gears_work/
+
+# OS and editors
+.DS_Store
+.idea/
+.vscode/

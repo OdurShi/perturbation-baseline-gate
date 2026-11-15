@@ -1,0 +1,17 @@
+category,predictor,metric,mean,ci_low,ci_high,seed_mean_sd,n_records,n_perturbations,n_seeds
+unseen_single,splithalf_replicate,pearson_all,0.72546,0.676962,0.771622,0.0316961,520,105,20
+unseen_single,splithalf_replicate,pearson_de20,0.982347,0.972415,0.988806,0.00551847,520,105,20
+unseen_single,splithalf_replicate,mse_de20,0.00307472,0.00247308,0.0039124,0.000758158,520,105,20
+unseen_single,splithalf_replicate,l2_top1000,1.56912,1.4629,1.68538,0.0979115,520,105,20
+combo_seen0,splithalf_replicate,pearson_all,0.805967,0.753227,0.845192,0.0519156,189,101,20
+combo_seen0,splithalf_replicate,pearson_de20,0.99363,0.991691,0.995161,0.00229455,189,101,20
+combo_seen0,splithalf_replicate,mse_de20,0.00523287,0.00389218,0.00706047,0.00209423,189,101,20
+combo_seen0,splithalf_replicate,l2_top1000,2.18846,1.92189,2.5079,0.449229,189,101,20
+combo_seen1,splithalf_replicate,pearson_all,0.803314,0.77206,0.829381,0.0181132,1036,131,20
+combo_seen1,splithalf_replicate,pearson_de20,0.993071,0.991659,0.994287,0.000703134,1036,131,20
+combo_seen1,splithalf_replicate,mse_de20,0.00587382,0.00479723,0.00711725,0.000805666,1036,131,20
+combo_seen1,splithalf_replicate,l2_top1000,2.28677,2.11314,2.47152,0.106209,1036,131,20
+combo_seen2,splithalf_replicate,pearson_all,0.818173,0.789355,0.841533,0.028648,348,127,20
+combo_seen2,splithalf_replicate,pearson_de20,0.993926,0.992354,0.995119,0.00126592,348,127,20
+combo_seen2,splithalf_replicate,mse_de20,0.00564973,0.0044125,0.00714251,0.00116642,348,127,20
+combo_seen2,splithalf_replicate,l2_top1000,2.34617,2.11988,2.60687,0.248977,348,127,20

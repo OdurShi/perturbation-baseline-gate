@@ -1,0 +1,12 @@
+# GEARS stdout, epoch summaries (scripts/optional_gears.py --seed 0 --epochs 3 --device cpu)
+These perturbations are not in the GO graph and their perturbation can thus not be predicted
+['FOXL2+FOXL2NB' 'IER5L+ctrl' 'IER5L+LYL1' 'FOXL2NB+ctrl' 'CBARP+TGFBR2'
+ 'CBARP+ctrl' 'MAP3K21+ctrl']
+data ready after 2 s; 229 perturbations kept by GEARS
+Epoch 1: Train Overall MSE: 0.0076 Validation Overall MSE: 0.0097. 
+Train Top 20 DE MSE: 0.1819 Validation Top 20 DE MSE: 0.2119. 
+Epoch 2: Train Overall MSE: 0.0077 Validation Overall MSE: 0.0088. 
+Train Top 20 DE MSE: 0.1216 Validation Top 20 DE MSE: 0.1384. 
+Epoch 3: Train Overall MSE: 0.0066 Validation Overall MSE: 0.0083. 
+Train Top 20 DE MSE: 0.1201 Validation Top 20 DE MSE: 0.1270. 
+Best performing model: Test Top 20 DE MSE: 0.1542

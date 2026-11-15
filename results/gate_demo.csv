@@ -1,0 +1,161 @@
+candidate,against,category,metric,n_perturbations,model_mean,strongest_baseline,strongest_baseline_mean,min_ci_low,baselines_beaten,n_baselines,passes
+no_change,the other four baselines,unseen_single,pearson_all,105,0,additive,0.511701,-0.585245,0,4,False
+no_change,the other four baselines,unseen_single,pearson_de20,105,0,additive,0.499133,-0.598631,0,4,False
+no_change,the other four baselines,unseen_single,mse_de20,105,0.229516,train_mean,0.173758,-0.0758572,0,4,False
+no_change,the other four baselines,unseen_single,l2_top1000,105,3.61017,additive,3.04895,-0.839185,0,4,False
+no_change,the other four baselines,combo_seen0,pearson_all,101,0,linear,0.569875,-0.643201,0,4,False
+no_change,the other four baselines,combo_seen0,pearson_de20,101,0,linear,0.574659,-0.695537,0,4,False
+no_change,the other four baselines,combo_seen0,mse_de20,101,0.439542,additive,0.316833,-0.196693,0,4,False
+no_change,the other four baselines,combo_seen0,l2_top1000,101,5.51223,train_mean,4.4052,-1.50419,0,4,False
+no_change,the other four baselines,combo_seen1,pearson_all,131,0,additive,0.733394,-0.768869,0,4,False
+no_change,the other four baselines,combo_seen1,pearson_de20,131,0,additive,0.820971,-0.86168,0,4,False
+no_change,the other four baselines,combo_seen1,mse_de20,131,0.422912,additive,0.127896,-0.346981,0,4,False
+no_change,the other four baselines,combo_seen1,l2_top1000,131,5.58046,additive,3.53897,-2.45149,0,4,False
+no_change,the other four baselines,combo_seen2,pearson_all,127,0,additive,0.862162,-0.878747,0,4,False
+no_change,the other four baselines,combo_seen2,pearson_de20,127,0,additive,0.950834,-0.968007,0,4,False
+no_change,the other four baselines,combo_seen2,mse_de20,127,0.441556,additive,0.0442831,-0.476199,0,4,False
+no_change,the other four baselines,combo_seen2,l2_top1000,127,5.88716,additive,2.7843,-3.54432,0,4,False
+no_change,the other four baselines,all,pearson_all,236,0,additive,0.6845,-0.717121,0,4,False
+no_change,the other four baselines,all,pearson_de20,236,0,additive,0.737834,-0.778376,0,4,False
+no_change,the other four baselines,all,mse_de20,236,0.379465,additive,0.144651,-0.27264,0,4,False
+no_change,the other four baselines,all,l2_top1000,236,5.13578,additive,3.39172,-2.04431,0,4,False
+train_mean,the other four baselines,unseen_single,pearson_all,105,0.505208,additive,0.511701,-0.010908,3,4,False
+train_mean,the other four baselines,unseen_single,pearson_de20,105,0.491038,additive,0.499133,-0.0517269,1,4,False
+train_mean,the other four baselines,unseen_single,mse_de20,105,0.173758,knn,0.177767,-0.0168432,2,4,False
+train_mean,the other four baselines,unseen_single,l2_top1000,105,3.22373,additive,3.04895,-0.262312,1,4,False
+train_mean,the other four baselines,combo_seen0,pearson_all,101,0.564714,linear,0.569875,-0.0389665,1,4,False
+train_mean,the other four baselines,combo_seen0,pearson_de20,101,0.551714,linear,0.574659,-0.120508,1,4,False
+train_mean,the other four baselines,combo_seen0,mse_de20,101,0.342426,additive,0.316833,-0.0864966,1,4,False
+train_mean,the other four baselines,combo_seen0,l2_top1000,101,4.4052,additive,4.6461,-0.106827,2,4,False
+train_mean,the other four baselines,combo_seen1,pearson_all,131,0.598509,additive,0.733394,-0.166996,1,4,False
+train_mean,the other four baselines,combo_seen1,pearson_de20,131,0.645274,additive,0.820971,-0.240471,1,4,False
+train_mean,the other four baselines,combo_seen1,mse_de20,131,0.304509,additive,0.127896,-0.216016,1,4,False
+train_mean,the other four baselines,combo_seen1,l2_top1000,131,4.27479,additive,3.53897,-0.999855,1,4,False
+train_mean,the other four baselines,combo_seen2,pearson_all,127,0.618216,additive,0.862162,-0.319945,1,4,False
+train_mean,the other four baselines,combo_seen2,pearson_de20,127,0.675541,additive,0.950834,-0.361874,1,4,False
+train_mean,the other four baselines,combo_seen2,mse_de20,127,0.309335,additive,0.0442831,-0.324437,1,4,False
+train_mean,the other four baselines,combo_seen2,l2_top1000,127,4.43825,additive,2.7843,-2.00937,1,4,False
+train_mean,the other four baselines,all,pearson_all,236,0.575553,additive,0.6845,-0.134551,1,4,False
+train_mean,the other four baselines,all,pearson_de20,236,0.603539,additive,0.737834,-0.175451,1,4,False
+train_mean,the other four baselines,all,mse_de20,236,0.276251,additive,0.144651,-0.159233,1,4,False
+train_mean,the other four baselines,all,l2_top1000,236,4.05261,additive,3.39172,-0.843372,1,4,False
+additive,the other four baselines,unseen_single,pearson_all,105,0.511701,train_mean,0.505208,0.00203883,4,4,True
+additive,the other four baselines,unseen_single,pearson_de20,105,0.499133,train_mean,0.491038,-0.040512,1,4,False
+additive,the other four baselines,unseen_single,mse_de20,105,0.18262,train_mean,0.173758,-0.0245749,1,4,False
+additive,the other four baselines,unseen_single,l2_top1000,105,3.04895,train_mean,3.22373,0.068702,4,4,True
+additive,the other four baselines,combo_seen0,pearson_all,101,0.564787,linear,0.569875,-0.0412006,1,4,False
+additive,the other four baselines,combo_seen0,pearson_de20,101,0.546674,linear,0.574659,-0.126058,1,4,False
+additive,the other four baselines,combo_seen0,mse_de20,101,0.316833,knn,0.322251,-0.0591262,2,4,False
+additive,the other four baselines,combo_seen0,l2_top1000,101,4.6461,train_mean,4.4052,-0.520537,1,4,False
+additive,the other four baselines,combo_seen1,pearson_all,131,0.733394,knn,0.663866,0.0503218,4,4,True
+additive,the other four baselines,combo_seen1,pearson_de20,131,0.820971,knn,0.745984,0.0366463,4,4,True
+additive,the other four baselines,combo_seen1,mse_de20,131,0.127896,knn,0.208928,0.0567858,4,4,True
+additive,the other four baselines,combo_seen1,l2_top1000,131,3.53897,knn,3.94973,0.205813,4,4,True
+additive,the other four baselines,combo_seen2,pearson_all,127,0.862162,knn,0.734258,0.0829569,4,4,True
+additive,the other four baselines,combo_seen2,pearson_de20,127,0.950834,knn,0.835145,0.0708058,4,4,True
+additive,the other four baselines,combo_seen2,mse_de20,127,0.0442831,knn,0.152436,0.0688161,4,4,True
+additive,the other four baselines,combo_seen2,l2_top1000,127,2.7843,knn,3.6341,0.481443,4,4,True
+additive,the other four baselines,all,pearson_all,236,0.6845,linear,0.610878,0.0531706,4,4,True
+additive,the other four baselines,all,pearson_de20,236,0.737834,knn,0.674831,0.0304394,4,4,True
+additive,the other four baselines,all,mse_de20,236,0.144651,knn,0.202026,0.0393529,4,4,True
+additive,the other four baselines,all,l2_top1000,236,3.39172,knn,3.79768,0.264239,4,4,True
+linear,the other four baselines,unseen_single,pearson_all,105,0.475319,additive,0.511701,-0.0703509,1,4,False
+linear,the other four baselines,unseen_single,pearson_de20,105,0.485535,additive,0.499133,-0.0658731,1,4,False
+linear,the other four baselines,unseen_single,mse_de20,105,0.193528,train_mean,0.173758,-0.0577098,0,4,False
+linear,the other four baselines,unseen_single,l2_top1000,105,3.39135,additive,3.04895,-0.797164,0,4,False
+linear,the other four baselines,combo_seen0,pearson_all,101,0.569875,additive,0.564787,-0.0250386,2,4,False
+linear,the other four baselines,combo_seen0,pearson_de20,101,0.574659,knn,0.5532,-0.0629336,1,4,False
+linear,the other four baselines,combo_seen0,mse_de20,101,0.330451,additive,0.316833,-0.0832235,1,4,False
+linear,the other four baselines,combo_seen0,l2_top1000,101,5.01726,train_mean,4.4052,-1.47928,0,4,False
+linear,the other four baselines,combo_seen1,pearson_all,131,0.65004,additive,0.733394,-0.112049,2,4,False
+linear,the other four baselines,combo_seen1,pearson_de20,131,0.71328,additive,0.820971,-0.159994,2,4,False
+linear,the other four baselines,combo_seen1,mse_de20,131,0.218326,additive,0.127896,-0.122395,2,4,False
+linear,the other four baselines,combo_seen1,l2_top1000,131,4.22166,additive,3.53897,-0.924873,1,4,False
+linear,the other four baselines,combo_seen2,pearson_all,127,0.71912,additive,0.862162,-0.211138,2,4,False
+linear,the other four baselines,combo_seen2,pearson_de20,127,0.799118,additive,0.950834,-0.222224,2,4,False
+linear,the other four baselines,combo_seen2,mse_de20,127,0.153705,additive,0.0442831,-0.150192,2,4,False
+linear,the other four baselines,combo_seen2,l2_top1000,127,3.74017,additive,2.7843,-1.32593,2,4,False
+linear,the other four baselines,all,pearson_all,236,0.610878,additive,0.6845,-0.0974853,2,4,False
+linear,the other four baselines,all,pearson_de20,236,0.658452,additive,0.737834,-0.115938,2,4,False
+linear,the other four baselines,all,mse_de20,236,0.211546,additive,0.144651,-0.090801,2,4,False
+linear,the other four baselines,all,l2_top1000,236,4.00716,additive,3.39172,-0.829478,1,4,False
+knn,the other four baselines,unseen_single,pearson_all,105,0.449588,additive,0.511701,-0.0839006,1,4,False
+knn,the other four baselines,unseen_single,pearson_de20,105,0.469994,additive,0.499133,-0.0813683,1,4,False
+knn,the other four baselines,unseen_single,mse_de20,105,0.177767,train_mean,0.173758,-0.0198205,1,4,False
+knn,the other four baselines,unseen_single,l2_top1000,105,3.29038,additive,3.04895,-0.386727,0,4,False
+knn,the other four baselines,combo_seen0,pearson_all,101,0.526927,linear,0.569875,-0.0794753,1,4,False
+knn,the other four baselines,combo_seen0,pearson_de20,101,0.5532,linear,0.574659,-0.103319,1,4,False
+knn,the other four baselines,combo_seen0,mse_de20,101,0.322251,additive,0.316833,-0.0508626,1,4,False
+knn,the other four baselines,combo_seen0,l2_top1000,101,4.66115,train_mean,4.4052,-0.557664,1,4,False
+knn,the other four baselines,combo_seen1,pearson_all,131,0.663866,additive,0.733394,-0.0904282,2,4,False
+knn,the other four baselines,combo_seen1,pearson_de20,131,0.745984,additive,0.820971,-0.117635,2,4,False
+knn,the other four baselines,combo_seen1,mse_de20,131,0.208928,additive,0.127896,-0.1077,2,4,False
+knn,the other four baselines,combo_seen1,l2_top1000,131,3.94973,additive,3.53897,-0.613214,3,4,False
+knn,the other four baselines,combo_seen2,pearson_all,127,0.734258,additive,0.862162,-0.186531,2,4,False
+knn,the other four baselines,combo_seen2,pearson_de20,127,0.835145,additive,0.950834,-0.17461,2,4,False
+knn,the other four baselines,combo_seen2,mse_de20,127,0.152436,additive,0.0442831,-0.152023,2,4,False
+knn,the other four baselines,combo_seen2,l2_top1000,127,3.6341,additive,2.7843,-1.20465,2,4,False
+knn,the other four baselines,all,pearson_all,236,0.609968,additive,0.6845,-0.0937046,2,4,False
+knn,the other four baselines,all,pearson_de20,236,0.674831,additive,0.737834,-0.0957764,2,4,False
+knn,the other four baselines,all,mse_de20,236,0.202026,additive,0.144651,-0.0763943,2,4,False
+knn,the other four baselines,all,l2_top1000,236,3.79768,additive,3.39172,-0.553673,3,4,False
+observed + noise (sd 0.05),all five baselines,unseen_single,pearson_all,105,0.678811,additive,0.511701,0.106043,5,5,True
+observed + noise (sd 0.05),all five baselines,unseen_single,pearson_de20,105,0.977034,additive,0.499133,0.377928,5,5,True
+observed + noise (sd 0.05),all five baselines,unseen_single,mse_de20,105,0.00255042,train_mean,0.173758,0.130282,5,5,True
+observed + noise (sd 0.05),all five baselines,unseen_single,l2_top1000,105,1.58041,additive,3.04895,1.20811,5,5,True
+observed + noise (sd 0.05),all five baselines,combo_seen0,pearson_all,101,0.815979,linear,0.569875,0.184238,5,5,True
+observed + noise (sd 0.05),all five baselines,combo_seen0,pearson_de20,101,0.966751,linear,0.574659,0.272704,5,5,True
+observed + noise (sd 0.05),all five baselines,combo_seen0,mse_de20,101,0.00244743,additive,0.316833,0.232276,5,5,True
+observed + noise (sd 0.05),all five baselines,combo_seen0,l2_top1000,101,1.5775,train_mean,4.4052,2.35127,5,5,True
+observed + noise (sd 0.05),all five baselines,combo_seen1,pearson_all,131,0.820619,additive,0.733394,0.0618038,5,5,True
+observed + noise (sd 0.05),all five baselines,combo_seen1,pearson_de20,131,0.970125,additive,0.820971,0.111392,5,5,True
+observed + noise (sd 0.05),all five baselines,combo_seen1,mse_de20,131,0.00251764,additive,0.127896,0.100996,5,5,True
+observed + noise (sd 0.05),all five baselines,combo_seen1,l2_top1000,131,1.58218,additive,3.53897,1.75732,5,5,True
+observed + noise (sd 0.05),all five baselines,combo_seen2,pearson_all,127,0.833736,additive,0.862162,-0.0472309,4,5,False
+observed + noise (sd 0.05),all five baselines,combo_seen2,pearson_de20,127,0.969757,additive,0.950834,0.00478364,5,5,True
+observed + noise (sd 0.05),all five baselines,combo_seen2,mse_de20,127,0.00250296,additive,0.0442831,0.0284886,5,5,True
+observed + noise (sd 0.05),all five baselines,combo_seen2,l2_top1000,127,1.5809,additive,2.7843,0.955178,5,5,True
+observed + noise (sd 0.05),all five baselines,all,pearson_all,236,0.787149,additive,0.6845,0.0785303,5,5,True
+observed + noise (sd 0.05),all five baselines,all,pearson_de20,236,0.971476,additive,0.737834,0.194916,5,5,True
+observed + noise (sd 0.05),all five baselines,all,mse_de20,236,0.002517,additive,0.144651,0.120052,5,5,True
+observed + noise (sd 0.05),all five baselines,all,l2_top1000,236,1.58111,additive,3.39172,1.6527,5,5,True
+observed + noise (sd 0.005),all five baselines,unseen_single,pearson_all,105,0.991604,additive,0.511701,0.407377,5,5,True
+observed + noise (sd 0.005),all five baselines,unseen_single,pearson_de20,105,0.99974,additive,0.499133,0.40111,5,5,True
+observed + noise (sd 0.005),all five baselines,unseen_single,mse_de20,105,2.49786e-05,train_mean,0.173758,0.132816,5,5,True
+observed + noise (sd 0.005),all five baselines,unseen_single,l2_top1000,105,0.158046,additive,3.04895,2.63124,5,5,True
+observed + noise (sd 0.005),all five baselines,combo_seen0,pearson_all,101,0.996962,linear,0.569875,0.354246,5,5,True
+observed + noise (sd 0.005),all five baselines,combo_seen0,pearson_de20,101,0.998477,linear,0.574659,0.30334,5,5,True
+observed + noise (sd 0.005),all five baselines,combo_seen0,mse_de20,101,2.44416e-05,additive,0.316833,0.234621,5,5,True
+observed + noise (sd 0.005),all five baselines,combo_seen0,l2_top1000,101,0.158553,train_mean,4.4052,3.77097,5,5,True
+observed + noise (sd 0.005),all five baselines,combo_seen1,pearson_all,131,0.997084,additive,0.733394,0.228674,5,5,True
+observed + noise (sd 0.005),all five baselines,combo_seen1,pearson_de20,131,0.998386,additive,0.820971,0.137171,5,5,True
+observed + noise (sd 0.005),all five baselines,combo_seen1,mse_de20,131,2.49242e-05,additive,0.127896,0.10344,5,5,True
+observed + noise (sd 0.005),all five baselines,combo_seen1,l2_top1000,131,0.158121,additive,3.53897,3.18181,5,5,True
+observed + noise (sd 0.005),all five baselines,combo_seen2,pearson_all,127,0.99742,additive,0.862162,0.118975,5,5,True
+observed + noise (sd 0.005),all five baselines,combo_seen2,pearson_de20,127,0.998246,additive,0.950834,0.0317073,5,5,True
+observed + noise (sd 0.005),all five baselines,combo_seen2,mse_de20,127,2.53487e-05,additive,0.0442831,0.0309839,5,5,True
+observed + noise (sd 0.005),all five baselines,combo_seen2,l2_top1000,127,0.157946,additive,2.7843,2.37806,5,5,True
+observed + noise (sd 0.005),all five baselines,all,pearson_all,236,0.995768,additive,0.6845,0.279132,5,5,True
+observed + noise (sd 0.005),all five baselines,all,pearson_de20,236,0.998707,additive,0.737834,0.220632,5,5,True
+observed + noise (sd 0.005),all five baselines,all,mse_de20,236,2.49648e-05,additive,0.144651,0.122544,5,5,True
+observed + noise (sd 0.005),all five baselines,all,l2_top1000,236,0.158112,additive,3.39172,3.0766,5,5,True
+no_change,all five baselines,unseen_single,pearson_all,105,0,additive,0.511701,-0.585245,0,5,False
+no_change,all five baselines,unseen_single,pearson_de20,105,0,additive,0.499133,-0.598631,0,5,False
+no_change,all five baselines,unseen_single,mse_de20,105,0.229516,train_mean,0.173758,-0.0758572,0,5,False
+no_change,all five baselines,unseen_single,l2_top1000,105,3.61017,additive,3.04895,-0.839185,0,5,False
+no_change,all five baselines,combo_seen0,pearson_all,101,0,linear,0.569875,-0.643201,0,5,False
+no_change,all five baselines,combo_seen0,pearson_de20,101,0,linear,0.574659,-0.695537,0,5,False
+no_change,all five baselines,combo_seen0,mse_de20,101,0.439542,additive,0.316833,-0.196693,0,5,False
+no_change,all five baselines,combo_seen0,l2_top1000,101,5.51223,train_mean,4.4052,-1.50419,0,5,False
+no_change,all five baselines,combo_seen1,pearson_all,131,0,additive,0.733394,-0.768869,0,5,False
+no_change,all five baselines,combo_seen1,pearson_de20,131,0,additive,0.820971,-0.86168,0,5,False
+no_change,all five baselines,combo_seen1,mse_de20,131,0.422912,additive,0.127896,-0.346981,0,5,False
+no_change,all five baselines,combo_seen1,l2_top1000,131,5.58046,additive,3.53897,-2.45149,0,5,False
+no_change,all five baselines,combo_seen2,pearson_all,127,0,additive,0.862162,-0.878747,0,5,False
+no_change,all five baselines,combo_seen2,pearson_de20,127,0,additive,0.950834,-0.968007,0,5,False
+no_change,all five baselines,combo_seen2,mse_de20,127,0.441556,additive,0.0442831,-0.476199,0,5,False
+no_change,all five baselines,combo_seen2,l2_top1000,127,5.88716,additive,2.7843,-3.54432,0,5,False
+no_change,all five baselines,all,pearson_all,236,0,additive,0.6845,-0.717121,0,5,False
+no_change,all five baselines,all,pearson_de20,236,0,additive,0.737834,-0.778376,0,5,False
+no_change,all five baselines,all,mse_de20,236,0.379465,additive,0.144651,-0.27264,0,5,False
+no_change,all five baselines,all,l2_top1000,236,5.13578,additive,3.39172,-2.04431,0,5,False

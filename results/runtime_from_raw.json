@@ -1,0 +1,26 @@
+{
+ "date_utc": "2026-11-14 23:21",
+ "from_raw": true,
+ "seconds_per_step": {
+  "download_data.py": 2.1,
+  "preprocess_pseudobulk.py": 19.4,
+  "preprocess_pseudobulk.py --keep-all-cells": 60.7,
+  "run_baselines.py": 35.2,
+  "analyze_additivity.py": 4.5,
+  "analyze_ranking.py": 50.2,
+  "analyze_sensitivity.py --all-cells-data": 75.8,
+  "gate_demo.py": 79.7,
+  "review_checks.py": 0.2,
+  "make_figures.py": 3.0
+ },
+ "seconds_total": 330.8,
+ "python": "3.12.16",
+ "platform": "macOS-27.2.1-arm64-arm-64bit",
+ "machine": "arm64",
+ "packages": {
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "pandas": "3.1.1",
+  "matplotlib": "3.11.2"
+ }
+}

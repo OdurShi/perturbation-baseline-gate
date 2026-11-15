@@ -1,0 +1,82 @@
+{
+ "n_doubles": 131,
+ "exclude_targets": false,
+ "n_boot": 10000,
+ "seed": 0,
+ "all": {
+  "pooled_r2": {
+   "value": 0.6778933722584504,
+   "ci_low": 0.6357494499465025,
+   "ci_high": 0.7150555932703102
+  },
+  "per_double_r2_median": 0.7360770570997635,
+  "per_double_r2_q25": 0.5299117017164074,
+  "per_double_r2_q75": 0.7971291683566286,
+  "per_double_r2_min": -2.427173509201489,
+  "share_of_doubles_r2_below_0.5": 0.22137404580152673,
+  "per_double_pearson_median": 0.8818987802406433,
+  "per_double_slope_median": 0.8226281279477939,
+  "pooled_r2_vs_mean_double": {
+   "value": 0.4569692169767947,
+   "ci_low": 0.38639628664603354,
+   "ci_high": 0.520721225195359
+  },
+  "noise_share_of_total": 0.08857371110100634,
+  "noise_share_of_residual": 0.44343927421191426,
+  "pooled_r2_noise_corrected": {
+   "value": 0.8033062018283994,
+   "ci_low": 0.76165424441532,
+   "ci_high": 0.8405346987351402
+  },
+  "pooled_r2_vs_mean_double_noise_corrected": {
+   "value": 0.6455594761629022,
+   "ci_low": 0.5713412304605784,
+   "ci_high": 0.7120416420358026
+  }
+ },
+ "top1000": {
+  "pooled_r2": {
+   "value": 0.7503680136384392,
+   "ci_low": 0.7099407089652797,
+   "ci_high": 0.786635187401402
+  },
+  "per_double_r2_median": 0.8130855805691839,
+  "per_double_r2_q25": 0.6277285215745725,
+  "per_double_r2_q75": 0.866380462964145,
+  "per_double_r2_min": -3.3157879325659634,
+  "share_of_doubles_r2_below_0.5": 0.183206106870229,
+  "per_double_pearson_median": 0.9138557191365365,
+  "per_double_slope_median": 0.853134365659123,
+  "pooled_r2_vs_mean_double": {
+   "value": 0.5389588268171297,
+   "ci_low": 0.4642656605028778,
+   "ci_high": 0.6073330920467062
+  },
+  "noise_share_of_total": 0.04288627201616256,
+  "noise_share_of_residual": 0.2720658176476632,
+  "pooled_r2_noise_corrected": {
+   "value": 0.8101420441812314,
+   "ci_low": 0.7695439541357113,
+   "ci_high": 0.8469943971682115
+  },
+  "pooled_r2_vs_mean_double_noise_corrected": {
+   "value": 0.6359049421053338,
+   "ci_low": 0.5591491199613313,
+   "ci_high": 0.7060213954570123
+  }
+ },
+ "de20": {
+  "pooled_r2": {
+   "value": 0.9019305109595211,
+   "ci_low": 0.8790005429616702,
+   "ci_high": 0.9213241518963625
+  },
+  "per_double_r2_median": 0.9226045088109948,
+  "per_double_r2_q25": 0.8759146414870755,
+  "per_double_r2_q75": 0.9574797123880442,
+  "per_double_r2_min": 0.16849484597357745,
+  "share_of_doubles_r2_below_0.5": 0.061068702290076333,
+  "per_double_pearson_median": 0.9769465627893321,
+  "per_double_slope_median": 0.936453732855622
+ }
+}
